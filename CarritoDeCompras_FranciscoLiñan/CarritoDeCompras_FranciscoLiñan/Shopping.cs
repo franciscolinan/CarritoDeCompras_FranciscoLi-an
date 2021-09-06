@@ -8,6 +8,8 @@ namespace CarritoDeCompras_FranciscoLiñan
 {
     class Shopping
     {
+        // Miembros y metodos de la clase declarados estáticos por simplicidad 
+        //
         static Carrito carrito_ = new Carrito();
 
         static public bool ImprimirMenu()
