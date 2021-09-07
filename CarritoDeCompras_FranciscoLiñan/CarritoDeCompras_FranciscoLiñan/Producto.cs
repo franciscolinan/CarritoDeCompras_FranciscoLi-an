@@ -9,7 +9,7 @@ namespace CarritoDeCompras_FranciscoLiñan
     // Clase abstracta
     abstract class Producto
     {
-        public abstract int GetPrecio();
+        public abstract int GetPrecio(int descuento);
         public abstract int GetDescuento(int cantidad);
     }
 }
