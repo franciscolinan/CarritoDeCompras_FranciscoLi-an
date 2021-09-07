@@ -24,7 +24,7 @@ namespace CarritoDeCompras_FranciscoLiñan
 
             this.productos_.ForEach((producto) =>
             {
-                total += producto.GetPrecio();
+                total += producto.GetPrecio(0);
             });
 
             return total;
@@ -32,10 +32,14 @@ namespace CarritoDeCompras_FranciscoLiñan
 
         public int GetPrecioFinal()
         {
-            if (this.GetCantidad() > 0)
-                return this.GetTotalSinDesc() - (this.GetTotalSinDesc() * this.productos_[0].GetDescuento(this.GetCantidad()) / 100);
+            int total = 0;
 
-            return 0;
+            this.productos_.ForEach((producto) =>
+            {
+                total += producto.GetPrecio(producto.GetDescuento(this.productos_.Count()));
+            });
+
+            return total;
         }
 
         public int GetDescuento()
