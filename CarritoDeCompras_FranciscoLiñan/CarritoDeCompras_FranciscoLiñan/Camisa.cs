@@ -8,9 +8,9 @@ namespace CarritoDeCompras_FranciscoLiñan
 {
     class Camisa : Producto
     {
-        public override int GetPrecio()
+        public override int GetPrecio(int descuento)
         {
-            return 1000;
+            return 1000 - (1000 * descuento / 100);
         }
 
         public override int GetDescuento(int cantidad)
