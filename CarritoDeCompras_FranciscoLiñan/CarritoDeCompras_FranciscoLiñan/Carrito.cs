@@ -44,8 +44,15 @@ namespace CarritoDeCompras_FranciscoLiñan
 
         public int GetDescuento()
         {
+            int descuento = 0;
+
+            this.productos_.ForEach((producto) =>
+            {
+                descuento += producto.GetDescuento(this.GetCantidad());
+            });
+
             if (this.GetCantidad() > 0)
-                return this.productos_[0].GetDescuento(this.GetCantidad());
+                return descuento / this.GetCantidad();
 
             return 0;
         }
