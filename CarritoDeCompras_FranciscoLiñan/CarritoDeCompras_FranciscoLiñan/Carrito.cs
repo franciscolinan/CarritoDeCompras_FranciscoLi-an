@@ -36,7 +36,7 @@ namespace CarritoDeCompras_FranciscoLiñan
 
             this.productos_.ForEach((producto) =>
             {
-                total += producto.GetPrecio(producto.GetDescuento(this.productos_.Count()));
+                total += producto.GetPrecio(producto.GetDescuento(this.GetCantidad()));
             });
 
             return total;
