@@ -1,0 +1,7 @@
+C:\Users\Francisco\source\repos\CarritoDeCompras_FranciscoLiñan\CarritoDeCompras_FranciscoLiñan\bin\Debug\CarritoDeCompras_FranciscoLiñan.exe.config
+C:\Users\Francisco\source\repos\CarritoDeCompras_FranciscoLiñan\CarritoDeCompras_FranciscoLiñan\bin\Debug\CarritoDeCompras_FranciscoLiñan.exe
+C:\Users\Francisco\source\repos\CarritoDeCompras_FranciscoLiñan\CarritoDeCompras_FranciscoLiñan\bin\Debug\CarritoDeCompras_FranciscoLiñan.pdb
+C:\Users\Francisco\source\repos\CarritoDeCompras_FranciscoLiñan\CarritoDeCompras_FranciscoLiñan\obj\Debug\CarritoDeCompras_FranciscoLiñan.csproj.AssemblyReference.cache
+C:\Users\Francisco\source\repos\CarritoDeCompras_FranciscoLiñan\CarritoDeCompras_FranciscoLiñan\obj\Debug\CarritoDeCompras_FranciscoLiñan.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\source\repos\CarritoDeCompras_FranciscoLiñan\CarritoDeCompras_FranciscoLiñan\obj\Debug\CarritoDeCompras_FranciscoLiñan.exe
+C:\Users\Francisco\source\repos\CarritoDeCompras_FranciscoLiñan\CarritoDeCompras_FranciscoLiñan\obj\Debug\CarritoDeCompras_FranciscoLiñan.pdb
