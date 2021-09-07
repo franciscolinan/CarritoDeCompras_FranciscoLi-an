@@ -32,6 +32,8 @@ namespace CarritoDeCompras_FranciscoLiñan
 
         public int GetPrecioFinal()
         {
+            // Devuelve el precio total, luego de aplicarle el descuento a cada producto
+            //
             int total = 0;
 
             this.productos_.ForEach((producto) =>
@@ -44,19 +46,8 @@ namespace CarritoDeCompras_FranciscoLiñan
 
         public int GetDescuento()
         {
-            int cantidad = this.GetCantidad();
-
-            if (cantidad > 0)
-            {
-                int descuento = 0;
-
-                this.productos_.ForEach((producto) =>
-                {
-                    descuento += producto.GetDescuento(cantidad);
-                });
-
-                return descuento / cantidad;
-            }
+            if (this.productos_.Count() > 0)
+                return this.productos_.Max(t => t.GetDescuento(this.GetCantidad()));
 
             return 0;
         }
